@@ -15,8 +15,9 @@ class App extends Component {
     };
     }
     //https://still-plains-00092.herokuapp.com/daily api heroku
+    //http://10.10.15.71:5000/daily
     callAPI() {
-        fetch("http://192.168.0.9:5000/daily")
+        fetch("http://10.10.15.71:5000/daily")
         .then(response => response.json())
         .then(data => this.setState({ data }))
            
