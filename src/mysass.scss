@@ -1,0 +1,59 @@
+$fondo: white;
+$fondoPizarra : rgba(217, 235, 235, 0.979);
+$fondoCard : white;
+$colorTitulos :rgb(32, 31, 31);
+$colorCopete : black;
+$fondoArt :rgb(171, 219, 219);
+$fondoTarjeta : pink;
+h1 {
+  color: $colorTitulos;
+}
+.box {
+    background-color: $fondo; 
+    
+    padding :20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    height: 200px;
+  align-content: space-between;
+  }
+
+  .pizarraNoticias{ 
+      
+      background-color: $fondoPizarra;
+      padding: 20px; 
+      display :flex;
+      flex-wrap: wrap;
+    flex-direction: row;
+    }
+
+.estiloTarjeta {
+    width: 450px;
+    padding : 15px;
+    background-color :$fondoTarjeta,
+
+
+}
+.estiloArticulo {
+   width: 200px;
+    padding : 20px;
+    background-color :$fondoArt;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+}
+.estiloArticulo {
+    font-size: 20px;
+    color:$colorTitulos;
+
+}
+.textoCopete {
+    font-size: 15px;
+    color:$colorCopete;
+}
+.colorHeader {
+    background-color: white;
+}
